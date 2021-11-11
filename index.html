@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Anand Bonde</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            /* background-color: black; */
+            /* color: #d99c01; */
+            box-sizing: border-box;
+        }
+        
+        hr {
+            border-style: dotted;
+        }
+        
+        .column {
+            float: left;
+        }
+        
+        .column.right {
+            width: 40%;
+        }
+        
+        .column.middle {
+            width: 60%;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        
+        @media (max-width: 600px) {
+            .column.right,
+            .column.middle {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="column middle">
+            <h1>Anand Bonde</h1>
+            <a href="https://www.microsoft.com/en-us/research/people/abonde/">Senior Research SDE</a> at Microsoft Research
+        </div>
+        <div class="column right">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="mailto:anand.bonde@gmail.com ">anand.bonde@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/anandbonde " target="_blank ">https://github.com/anandbonde</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column middle">
+            <h2>About Me</h2>
+            <p>I work in the Systems Research Group at Microsoft Research and my area of focus is Cloud Efficiency. My expertise are in research and building large scale systems. I have solid hands on experience with building complex very large scale and
+                high-performance systems ranging from cloud infrastructure to low level systems like kernel components.</p>
+        </div>
+        <div class="column right">
+            <h2>Expertise</h2>
+            <ul>
+                <li>C, C++, Python, C#</li>
+                <li>Building high-performance and scalable systems</li>
+                <li>Building low-level systems (kernel, drivers)</li>
+                <li>Machine learning at scale</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <!-- <div class="header">
+        <h2>Header</h2>
+    </div> -->
+
+    <div class="row">
+        <div class="column middle">
+            <h2>Publications</h2>
+            <ol>
+                <li>
+                    <a href=" https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Per-VM-Capping-ATC21.pdf ">Prediction-Based
+            Power Oversubscription in Cloud Platforms</a>
+                    <br>
+                    <i>Proceedings of the USENIX Annual Technical Conference <b>(ATC'21) | July 2021</b></i>
+                </li>
+                <br>
+                <li>
+                    <a href="https://www.microsoft.com/en-us/research/publication/toward-ml-centric-cloud-platforms-opportunities-designs-and-experience-with-microsoft-azure/ ">Toward
+            ML-Centric Cloud Platforms: Opportunities, Designs, and Experience with Microsoft Azure</a>
+                    <br>
+                    <i>Communications of the <b>ACM | February 2020</b>, Vol 63(2)</i>
+                </li>
+                <br>
+                <li>
+                    <a href="https://www.microsoft.com/en-us/research/publication/resource-central-understanding-predicting-workloads-improved-resource-management-large-cloud-platforms/ ">Resource
+            Central: Understanding and Predicting Workloads for Improved Resource Management in Large Cloud
+            Platforms</a>
+                    <br>
+                    <i>Proceedings of the International Symposium on Operating Systems Principles <b>(SOSP) | October 2017</b></i>
+                </li>
+            </ol>
+        </div>
+        <div class="column left">
+            <h2>Showcase</h2>
+            <ol>
+                <li>Cows and Bulls Code-breaking game
+                    <br> (<a href="http://ab-cnb.herokuapp.com/">Live Demo</a>, <a href="https://github.com/anandbonde/cows_and_bulls">Source Code</a>)</li>
+                <br>
+                <li>Live Covid-19 Status Dashboard (Worldwide)
+                    <br> (<a href="https://curiotiveme.shinyapps.io/covid_19_status/">Live Demo</a>, <a href="https://github.com/anandbonde/covid_19_dashboard">Source Code</a>)</li>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <h2>Work Experience</h2>
+        <ol>
+            <li>
+                <b>Senior Research SDE at Microsoft Research (MSR)</b>
+                <br>(Dec 2015 - present)
+                <p>I'm a part of the Systems Research Group with a focus on Cloud Effiency. I work on the Core Azure infrastucture and other important system software for Microsoft.</p>
+            </li>
+
+            <li>
+                <b>SDE II at Microsoft India (R&D) Pvt. Ltd.</b>
+                <br>(Jan 2012 - Dec 2015)
+                <p>I was a part of the Maps Data Platform Group in the Bing Search Engine product. I implemented the PODIUM system for GeoLocation data ingestion in the Location Understanding component of the Bing Search Engine.</p>
+            </li>
+
+            <li>
+                <b>Module Lead at Avaya India (R&D) Pvt. Ltd.</b>
+                <br>(Mar 2006 - Dec 2011)
+                <p>I was a part of the Interaction Center (IC) Group. Designed, implemented and owned several high-performance and key components in the IC product.</p>
+            </li>
+
+            <li>
+                <b>Software Engineer at Harbinger Systems Pvt. Ltd.</b>
+                <br>(Dec 2004 - Feb 2006)
+                <p>I was a part of the TQMS (Tata Quality Management Services) project. I implemented the Calendar control for batch scheduling for the TQMS service.</p>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
